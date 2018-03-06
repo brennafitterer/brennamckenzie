@@ -1,0 +1,191 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 18px;
+  padding: 30px;
+  font-family: 'Roboto+Slab';
+  color: #2C302E;
+  min-height: 100%;
+  margin: 0;
+  font-size: 1rem;
+  padding-bottom: 100px;
+}
+
+h5 {
+  font-family: 'Raleway';
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 5fr .5fr .5fr .5fr .5fr;
+  grid-template-rows: .5fr;
+  grid-gap: 18px;
+  padding: 30px;
+  grid-column: 1 / 5;
+}
+
+.navbar .logo {
+     position: relative;
+     cursor: pointer;
+ }
+
+.links-container .navbar-link {
+  display: grid;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  color: #2C302E;
+  font-size: .8rem;
+  font-family: 'Raleway';
+  text-align: center;
+  padding: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-template-rows: .5fr .5fr;
+    grid-gap: 18px;
+    padding: 30px;
+    grid-column: 1 / 5;
+  }
+
+  .item1  {
+    grid-row:  1/3;
+  }
+
+  .item1, .item2, .item3, .item4, .item5 {
+    position: relative;
+    color: white;
+  }
+
+  .project-title {
+    margin-bottom: 5px;
+  }
+
+  .project-description {
+    margin-top: 5px;
+  }
+
+  .bio-copy, .the-event-copy, .jot-copy, .coming-soon-copy, .design-process-copy {
+    position: absolute;
+    bottom: 30px;
+    left: 16px;
+    margin-left: 15px;
+  }
+
+
+  .work-container {
+    grid-column: 2 / 4;
+    text-align: center;
+  }
+
+  .work-container .title {
+    font-family: 'Raleway';
+    font-size: 1.375rem;
+    color: #C4435A;
+    margin-bottom: 20px;
+  }
+  .work-container .description {
+    font-size: 1rem;
+  }
+
+.selling-points-container{
+  display: grid;
+  grid-template-columns: .4fr .4fr .4fr .4fr;
+  grid-gap: 18px;
+  padding: 30px;
+  grid-column: 1 / 5;
+  text-align: center;
+}
+
+.sellingpoint {
+  background-color: rgba(244,192,175,0.1);
+  padding: 10px;
+  border: white solid 10px;
+}
+
+  .point-title{
+    font-size: 1.125rem;
+    color: #C4435A;
+    font-family: 'Raleway';
+  }
+
+  .point-description {
+    font-size: .75rem;
+    padding:  0px 10px 10px 10px;
+  }
+
+  .CTA-button {
+    grid-column: 2/4;
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #C4435A;
+    border: none;
+    color: white;
+    padding: 15px 260px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  @media (min-width: 400px)   {
+    .projects, .selling-points-container, .navbar {
+      display: block;
+    }
+
+    .projects {
+      grid-column: 1/3;
+    }
+
+    .image1 {
+      width: 300px;
+    }
+
+    .work-container {
+      grid-column: 1/3;
+    }
+
+    .button {
+      padding: 15px 150px;
+    }
+
+    .CTA-button {
+      grid-column: 1/3;
+    }
+}
+
+
+@media (min-width: 800px) {
+.projects, .selling-points-container, .navbar{
+    display: grid;
+  }
+
+  .work-container {
+    grid-column: 2/4;
+  }
+
+  .CTA-button {
+    grid-column: 2/4;
+    text-align: center;
+  }
+}
