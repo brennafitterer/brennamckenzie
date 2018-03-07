@@ -1,0 +1,151 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 18px;
+  padding: 30px;
+  font-family: 'Roboto+Slab';
+  color: #2C302E;
+  min-height: 100%;
+  margin: 0;
+  font-size: 1rem;
+  padding-bottom: 100px;
+}
+
+
+.navbar {
+  display: grid;
+  grid-template-columns: 10fr .5fr .5fr .5fr .5fr;
+  grid-template-rows: .5fr;
+  grid-gap: 18px;
+  padding: 30px;
+  grid-column: 1 / 7;
+}
+
+.navbar .logo {
+     position: relative;
+     cursor: pointer;
+ }
+
+.links-container .navbar-link {
+  display: grid;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  color: #2C302E;
+  font-size: .8rem;
+  font-family: 'Raleway';
+  text-align: center;
+  padding: 10px;
+}
+
+
+.product, .discovery {
+    display: grid;
+    position: relative;
+    grid-column: 2/7;
+}
+
+.jot-logo {
+  display: grid;
+  position: relative;
+  grid-column: 3/7;
+  margin-bottom: 150px;
+  align-self: auto;
+}
+
+.jot-dashboard-image {
+  align-self: center;
+}
+
+
+h1 {
+  font-size: 12rem;
+  font-family: 'Raleway';
+  color: #262A68;
+  opacity: .05;
+  text-transform: uppercase;
+  font-weight: medium;
+  margin-top: 150px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Raleway';
+  color: #C5465C;
+  text-transform: uppercase;
+  font-weight: medium;
+  margin-left:121px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1.875rem;
+  font-family: 'Raleway';
+  margin-left:121px;
+}
+
+h5 {
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: 'Roboto+Slab';
+  color: #2C302E;
+  margin-left:121px;
+}
+
+.prototype-button {
+  background-color: #C5465C;
+  color: white;
+  width:267px;
+  margin-left:121px;
+  text-align: center;
+  height:  48px;
+  margin-top: 10px;
+}
+
+.overview {
+  margin-top: -133px;
+}
+
+.project-overview {
+  background-color: rgba(244, 192, 175, 0.4);
+  color: #2C302E;
+  padding-bottom: 60px;
+  width: 907px;
+  margin-top: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-overview h3{
+  color: #2C302E;
+}
+
+.project-overview h4{
+  margin-bottom: 0px;
+}
+
+.project-overview p{
+  color: #2C302E;
+  margin-top: 5px;
+}
+
+.overview, .user-research p {
+  margin-right: 500px;
+}
