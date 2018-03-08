@@ -57,12 +57,12 @@ body {
     grid-column: 2/7;
 }
 
-.jot-logo {
+.product-logo {
   display: grid;
   position: relative;
-  grid-column: 3/7;
+  grid-column: 1/7;
   margin-bottom: 150px;
-  align-self: auto;
+  justify-items: center;
 }
 
 .jot-dashboard-image {
@@ -79,6 +79,15 @@ h1 {
   font-weight: medium;
   margin-top: 150px;
   margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: 'Roboto+Slab';
+  color: #2C302E;
+  font-weight: medium;
+  margin-top: -210px;
+  margin-bottom: 140px;
 }
 
 h3 {
@@ -110,6 +119,7 @@ p {
   margin-left:121px;
 }
 
+
 .prototype-button {
   background-color: #C5465C;
   color: white;
@@ -118,6 +128,10 @@ p {
   text-align: center;
   height:  48px;
   margin-top: 10px;
+}
+
+.prototype-button h5 {
+  vertical-align: middle;
 }
 
 .overview {
@@ -146,6 +160,248 @@ p {
   margin-top: 5px;
 }
 
-.overview, .user-research p {
+.user-research p {
   margin-right: 500px;
+}
+
+.overview p {
+  margin-right: 500px;
+}
+
+.competitor-logos {
+  display: grid;
+  grid-column: 2/-1;
+  grid-template-columns: .4fr .5fr .5fr;
+  margin-top: 130px;
+}
+
+.competitor-chart {
+  display: grid;
+  grid-template-columns: .3fr .5fr;
+  grid-template-rows: .5fr .5fr;
+  text-align: left;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.competitor-chart h4 {
+  margin-left: 200px;
+  color: #C5465C;
+}
+
+.competitor-chart li {
+  list-style: none;
+  margin-left: 160px;
+}
+
+.overlay {
+  color: rgba(244, 192, 175, 0.4);
+}
+
+.user-research-charts {
+  display: grid;
+  grid-template-columns: .5fr .5fr .5fr;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.user-research-charts p{
+  margin-left: 0;
+}
+
+.persona-section {
+  display: grid;
+  grid-template-columns: .5fr .5fr .5fr;
+  margin-top: 140px;
+}
+
+.personas h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #C5465C;
+}
+
+.personas p {
+  margin-left: 0;
+  font-size: .9375rem;
+}
+
+.personas ul {
+  padding-left: 15px;
+}
+
+.personas h5 {
+  text-transform: none;
+  font-size: 1rem;
+}
+
+blockquote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  color: #F4C0AF;
+}
+
+.framework h5 {
+  margin-left:121px;
+  color: #C6495E;
+}
+
+.user-research {
+  margin-top: 140px;
+}
+
+.framework .user-flow-circle {
+  display: grid;
+  grid-template-columns: .4fr .5fr;
+  grid-template-rows: .3fr .5fr;
+  margin-top: -600px;
+}
+
+.circle-image {
+  margin-top: 140px;
+}
+
+.flow-numbers h1 {
+  margin-top: 0px;
+}
+
+.flow-stages h3 {
+  margin-top: -80px;
+  margin-left: 20px;
+}
+
+.wireframe {
+  margin-top: 140px;
+}
+
+.wireframe p {
+  margin-right: 500px;
+}
+
+.framework .wireframe-section {
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  grid-template-rows: .8fr .8fr 1.2fr;
+  grid-row-gap: 10px;
+  margin-top: 140px;
+}
+
+.wireframe-images {
+  height: 292px;
+  width: 420px;;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image1 {
+  grid-row:  1/4;
+}
+
+.design {
+  margin-top: 140px;
+}
+
+.brand-guidelines {
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  margin-top: 150px;
+}
+
+.type-header, .colors-header {
+  transform: rotate(-90deg);
+}
+
+.type-header h1{
+  color: rgba(244, 192, 175, 1.5);
+}
+
+
+.colors-header h1{
+  color: rgba(244, 192, 175, 1.5);
+  margin-top: 500px;
+}
+
+.testing {
+  margin-top: 500px;
+}
+
+.testing p {
+  margin-right: 500px;
+}
+
+.testing-section1 .testing-images{
+  display: grid;
+  grid-template-columns: .4fr .5fr;
+  grid-template-rows: .5fr .5fr;
+  margin-top: 140px;
+}
+
+.testing-section1 .testing-image2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.testing-image-results {
+  background-color: rgba(244, 192, 175, .95);
+  width: 478px;
+  margin-top: 200px;
+  height: 180px;
+}
+
+.testing-image-results h3{
+  margin-left: 50px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  color: #2C302E;
+}
+
+.testing-image-results p{
+  margin-left: 50px;
+  margin-right: 60px;
+  margin-top: 0;
+}
+
+.testing-copy {
+  margin-top: 140px;
+  margin-right: 500px;
+}
+
+.testing-section2 .testing-images{
+  display: grid;
+  grid-template-columns: .2fr .3fr;
+  grid-template-rows: .5fr .5fr;
+  margin-top: 140px;
+}
+
+.main-image-section {
+  margin-top: 140px;
+}
+
+.main-image {
+  display: block;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 140px;
+  width: 834px;
+  height:  600px;
+}
+
+.conclusion {
+  margin-right: 500px;
+  margin-top: 140px;
+}
+
+.footer {
+  background-color: rgba(244, 192, 175, .95);
+  margin-top: 200px;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-top: 150px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
 }
