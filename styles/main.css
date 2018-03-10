@@ -31,7 +31,7 @@ h5 {
 
 .navbar {
   display: grid;
-  grid-template-columns: 5fr .5fr .5fr .5fr .5fr;
+  grid-template-columns: 4fr .5fr .5fr .5fr .5fr;
   grid-template-rows: .5fr;
   grid-gap: 18px;
   padding: 30px;
@@ -59,8 +59,6 @@ h5 {
     grid-column: 1 / 5;
   }
 
-
-
   .item1  {
     grid-row:  1/3;
   }
@@ -68,6 +66,13 @@ h5 {
   .item1, .item2, .item3, .item4, .item5 {
     position: relative;
     color: white;
+  }
+
+  .item1 a, .item2 a, .item3 a, .item4 a, .item5 a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
   }
 
   .project-title{
@@ -138,19 +143,19 @@ h5 {
   }
 
   @media (min-width: 320px)   {
+
+    .logo img {
+      width: 300px;
+    }
+
     .projects, .selling-points-container, .navbar {
       display: block;
     }
 
-    .projects {
-      grid-column: 1/3;
-      margin-top: 20px;
-
-    }
 
     .copy {
       position: absolute;
-      bottom: -70px;
+      bottom: -60px;
       padding-left: 25px;
       overflow: hidden;
     }
@@ -159,27 +164,12 @@ h5 {
       width: 100%;
     }
 
-    .item2 img{
+    .item2 img, .item3 img, .item4 img, .item5 img{
       width: 100%;
       margin-top: 10px;
     }
 
-    .item3 img{
-      width: 100%;
-      margin-top: 10px;
-    }
-
-    .item4 img{
-      width: 100%;
-      margin-top: 10px;
-    }
-
-    .item5 img{
-      width: 100%;
-      margin-top: 10px;
-    }
-
-    .work-container {
+    .navbar .logo, .work-container, .CTA-button {
       grid-column: 1/3;
     }
 
@@ -187,15 +177,17 @@ h5 {
       padding: 15px 85px;
     }
 
-    .CTA-button {
-      grid-column: 1/3;
-    }
 }
 
 @media (min-width: 768px) {
-.projects, .selling-points-container, .navbar{
+.projects, .selling-points-container, .navbar, .work-container{
     display: grid;
   }
+
+  .logo img {
+       width: 400px;
+       height: 140px;
+   }
 
   .projects{
     grid-template-columns: .3fr .5fr;
@@ -208,34 +200,18 @@ h5 {
     position: absolute;
     bottom: -30px;
     padding-left: 25px;
+    padding-right: 10px;
     overflow: hidden;
-  }
-
-.item1 img{
     width: 411px;
-    height:  721px;
-    margin-top: 0px;
   }
 
-  .item2 img{
-    width: 411px;
-    height:  342px;
-    margin-top: 0px;
-  }
+  .item1 img {
+      width: 411px;
+      height:  721px;
+      margin-top: 0px;
+    }
 
-  .item3 img{
-    width: 411px;
-    height:  342px;
-    margin-top: 0px;
-  }
-
-  .item4 img{
-    width: 411px;
-    height:  342px;
-    margin-top: 0px;
-  }
-
-  .item5 img{
+  .item2 img, .item3 img, .item4 img, .item5 img{
     width: 411px;
     height:  342px;
     margin-top: 0px;
@@ -247,11 +223,8 @@ h5 {
     grid-template-rows: .5fr .5fr;
   }
 
-  .work-container {
-    grid-column: 2/4;
-  }
 
-  .CTA-button {
+  .CTA-button, .work-container {
     grid-column: 2/4;
     text-align: center;
   }
@@ -261,11 +234,11 @@ h5 {
     background: rgba(197, 70, 92, .85);
     transition: bottom 0.5s ease;
     padding-left:25px;
-    padding-top: 600px;
+    padding-top: 577px;
     position: absolute;
   }
 
-  .item2:hover .copy {
+  .item2:hover .copy, .item3:hover .copy, .item4:hover .copy, .item5:hover .copy {
     bottom: 20px;
     background: rgba(197, 70, 92, .85);
     transition: bottom 0.5s ease;
@@ -274,32 +247,6 @@ h5 {
     position: absolute;
   }
 
-  .item3:hover .copy {
-    bottom: 20px;
-    background: rgba(197, 70, 92, .85);
-    transition: bottom 0.5s ease;
-    padding-left:25px;
-    padding-top: 195px;
-    position: absolute;
-  }
-
-  .item4:hover .copy {
-    bottom: 20px;
-    background: rgba(197, 70, 92, .85);
-    transition: bottom 0.5s ease;
-    padding-left:25px;
-    padding-top: 195px;
-    position: absolute;
-  }
-
-  .item5:hover .copy {
-    bottom: 20px;
-    background: rgba(197, 70, 92, .85);
-    transition: bottom 0.5s ease;
-    padding-left:25px;
-    padding-top: 195px;
-    position: absolute;
-  }
 }
 
 
