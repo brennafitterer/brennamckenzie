@@ -68,7 +68,7 @@ h5 {
 }
 
 .about-header {
-  grid-column: 2/ span 5;
+  grid-column: 2/ 5;
 }
 
 .about-copy {
@@ -92,7 +92,6 @@ h5 {
     font-weight: medium;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-top: 10px;
   }
 
   p {
@@ -152,7 +151,6 @@ h5 {
 
   h1 {
     font-size: 4rem;
-    margin-top: 0;
   }
 
   .section1 {
@@ -166,6 +164,7 @@ h5 {
   .navbar {
     display: grid;
   }
+
 
   .about-header {
       padding-left: 55px;
