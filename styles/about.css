@@ -9,6 +9,17 @@ html {
   font-size: 100%;
 }
 
+h1 {
+  font-size: 2rem;
+  font-family: 'Raleway';
+  color: #262A68;
+  opacity: .05;
+  text-transform: uppercase;
+  font-weight: medium;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 
 body {
   display: grid;
@@ -72,9 +83,20 @@ h5 {
 }
 
 .about-copy {
-  grid-column: 2/ span 5;
+  grid-column: 2;
   text-align: center;
 }
+
+.icons {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 100px;
+}
+
+.icons a{
+  color: #C5465C;
+}
+
 
 .footer a {
   color: #C5465C;
@@ -85,13 +107,6 @@ h5 {
 
   h1 {
     font-size: 2rem;
-    font-family: 'Raleway';
-    color: #262A68;
-    opacity: .05;
-    text-transform: uppercase;
-    font-weight: medium;
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
 
   p {
@@ -100,7 +115,7 @@ h5 {
     color: #2C302E;
   }
 
-  .section1, .navbar {
+.navbar, .section1 {
     display: block;
   }
 
@@ -112,39 +127,14 @@ h5 {
     padding-left: 0;
   }
 
+  .about-header {
+    text-align: center;
+  }
+
   .about-copy {
     margin-top: -25px;
-  }
-
-  .footer {
-    grid-template-columns: .3fr .4fr .4fr;
-    display: grid;
-    grid-template-rows: .5fr;
-    grid-column: 1 /5;
-    grid-gap: 0;
-    margin-top: -10px;
-  }
-
-  .footer {
-      font-size: 2rem;
-  }
-
-  .dribble {
-    grid-column: 1;
-    text-align: center;
-    color: #C5465C;
-  }
-
-  .github {
-    grid-column: 2;
-      text-align: center;
-  }
-
-  .linkedin {
-    grid-column: 3;
     text-align: center;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -154,7 +144,7 @@ h5 {
   }
 
   .section1 {
-    grid-template-columns: .5fr .4fr .4fr .4fr;
+    grid-template-columns: .5fr .8fr ;
     display: grid;
     grid-template-rows: .5fr;
     grid-column: 1 /5;
@@ -165,37 +155,9 @@ h5 {
     display: grid;
   }
 
-
-  .about-header {
-      padding-left: 55px;
-  }
-
   .about-copy {
-    padding-right: 100px;
-    padding-left: 50px;
-    margin-top: -230px;
-  }
-
-
-  .footer {
-    grid-template-columns: .3fr .4fr .4fr .4fr;
-    margin-top: -10px;
-  }
-
-  .dribble {
-    grid-column: 2;
-    text-align: right;
-    color: #C5465C;
-  }
-
-  .github {
-    grid-column: 3;
-      text-align: center;
-  }
-
-  .linkedin {
-    grid-column: 4;
-    text-align: left;
+    margin-top: -30px;
+    padding: 0 20px;
   }
 
 }
@@ -203,7 +165,7 @@ h5 {
 @media (min-width: 1024px) {
 
   h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   p {
@@ -212,45 +174,11 @@ h5 {
     color: #2C302E;
   }
 
-  .about-header {
-      padding-left: 30px;
-  }
-
   .about-copy {
-    padding-right: 100px;
-    padding-left: 50px;
-    margin-top: -320px;
+    margin-top: -50px;
   }
-
-
-  .footer {
-    margin-top: -10px;
-    font-size: 3rem;
-  }
-
-
-}
-
-@media (min-width: 1440px) {
-
-  h1 {
-      font-size: 8rem;
-  }
-
-  .about-header {
-      padding-left: 120px;
-  }
-
-  .about-copy {
-    padding-right: 220px;
-    padding-left: 140px;
-    margin-top: -500px;
-  }
-
-  .footer {
-    margin-top: -130px;
-  }
-
-
+ .icons {
+   font-size: 2.5rem;
+ }
 
 }
