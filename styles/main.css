@@ -14,7 +14,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 18px;
-  padding: 30px;
   font-family: 'Roboto+Slab';
   color: #2C302E;
   min-height: 100%;
@@ -34,7 +33,6 @@ h5 {
   grid-template-columns: 4fr .5fr .5fr .5fr;
   grid-template-rows: .5fr;
   grid-gap: 18px;
-  padding: 30px;
   grid-column: 1 / 5;
 }
 
@@ -101,7 +99,7 @@ h5 {
 
 .selling-points-container{
   display: grid;
-  grid-template-columns: .4fr .4fr .4fr .4fr;
+  grid-template-columns: .5fr .5fr .5fr .5fr;
   grid-gap: 18px;
   padding: 30px;
   grid-column: 1 / 5;
@@ -153,6 +151,14 @@ h5 {
       display: block;
     }
 
+    .navbar {
+      padding-top: 30px;
+    }
+
+    .projects {
+      padding: 30px;
+    }
+
 
     .copy {
       position: absolute;
@@ -186,13 +192,22 @@ h5 {
       padding: 10px 90px;
       font-size: .75rem;
       width: 100%;
+      margin-left: 20px;
     }
 
 }
 
 @media (min-width: 768px) {
+  body {
+    padding: 30px;
+  }
+
 .projects, .selling-points-container, .navbar, .work-container{
     display: grid;
+  }
+
+  .navbar {
+    padding: 30px;
   }
 
   .projects{
