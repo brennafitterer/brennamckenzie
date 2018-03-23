@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar">
       <a href="index.html" class="logo">
-         <img src="images/Brenna-McKenzie-Designs.png" alt="Brenna McKenzie Designs" style="width: 400px; height:140;">
+         <img src="images/Brenna-McKenzie-Designs.png" alt="Brenna McKenzie Designs">
       </a>
       <div class="links-container">
         <a href="resume.html" class="navbar-link">RESUME</a>
@@ -19,6 +19,12 @@
         <a href="contact.html" class="navbar-link">CONTACT</a>
       </div>
     </nav>
+    <section class="side-nav">
+      <a href="#discovery"><img src="images/Discovery-button.png" alt="Discovery"></a>
+      <a href="#strategy"><img src="images/Strategy-button.png" alt="Strategy"></a>
+      <a href="#framework"><img src="images/Framework-button.png" alt="Framework"></a>
+      <a href="#design"><img src="images/Design-button.png" alt="Design"></a>
+    </section>
     <section class="product-logo">
       <div class="jot-logo">
         <img src="images/Jot-logo.png" alt="Jot">
@@ -54,7 +60,7 @@
       <section class="discovery">
         <div class="section-header">
             <div class="overview-header">
-              <h1>discovery</h1>
+              <h1 id="discovery">discovery</h1>
             </div>
             <div class="overview">
               <h3>Competitor analysis</h3>
@@ -73,7 +79,7 @@
           </div>
         </div>
         <div class="competitor-chart">
-          <div class="Strength">
+          <div class="strength">
             <h4>Strengths</h4>
             <ul>
               <li>Easy to use platform</li>
@@ -83,7 +89,7 @@
               <li>Good use of white space</li>
             </ul>
           </div>
-          <div class="Weakness">
+          <div class="weakness">
             <h4>Weaknesses</h4>
             <ul>
               <li>Unclear navigation</li>
@@ -91,9 +97,7 @@
               <li>Inconsistencies with branding</li>
             </ul>
           </div>
-          <div class="vl"></div>
-          <div class="hr"></div>
-          <div class="Opportunities">
+          <div class="opportunities">
             <h4>Opportunities</h4>
             <ul>
               <li>Chat functionality</li>
@@ -101,7 +105,7 @@
               <li>Free versions</li>
             </ul>
           </div>
-          <div class="Threats">
+          <div class="threats">
             <h4>Threats</h4>
             <ul>
               <li>Free solutions</li>
@@ -129,13 +133,13 @@
             <div class="charts">
               <img src="images/pie-chart-3.png">
               <h2>87%</h2>
-              <p>often write notes for both personal and professional use</p>
+              <p>often write notes for personal and professional use</p>
             </div>
           </div>
       </section>
       <section class="strategy">
         <div class="overview-header">
-          <h1>strategy</h1>
+          <h1 id="strategy">strategy</h1>
         </div>
         <div class="overview">
           <h3>Personas</h3>
@@ -147,14 +151,14 @@
           <div class="personas">
             <img src="images/laura-persona.png">
             <h2>Laura</h2>
-            <h5>Age: 33  &nbsp Profession: Marketer &nbsp Location: Portland, OR</h5>
+            <h5>Age: 33  &nbsp Profession: Marketer &nbsp Location: OR</h5>
             <p><b>GOALS</b></p>
             <ul>
               <li>Collaborate with her team</li>
               <li>Easily organize and find content</li>
               <li>Ability to write and share notes</li>
             </ul>
-            <blockquote>Being able to share and collaborate as a team is my number one priority. It allows us to stay on the same page and provides learning opps.</blockquote>
+            <blockquote> &ldquo;Being able to share and collaborate as a team is my number one priority. It allows us to stay on the same page.</blockquote>
             <p><b>FRUSTRATIONS</b></p>
             <ul>
               <li>Hard to share</li>
@@ -165,32 +169,32 @@
             <div class="personas">
               <img src="images/michael-persona.png">
               <h2>Michael</h2>
-              <h5>Age: 25 &nbsp  Profession: Writer &nbsp  Location: Denver, Co</h5>
+              <h5>Age: 25 &nbsp  Profession: Writer &nbsp  Location: CO</h5>
               <p><b>GOALS</b></p>
               <ul>
                 <li>Easily organize content </li>
-                <li>Large amounts of storage to host a lot of content</li>
+                <li>A lot of storage to host content</li>
                 <li>Access on the go</li>
               </ul>
               <blockquote>I need an easy way to store and manage large amounts of content.<br>&nbsp</br></blockquote>
               <p><b>FRUSTRATIONS</b></p>
               <ul>
                 <li>Hard to find content</li>
-                <li>Doesn’t know what tools to use/too many options</li>
+                <li>Doesn’t know what tools to use</li>
                 <li>Organizing is time-consuming</li>
               </ul>
             </div>
             <div class="personas">
               <img src="images/leigh-persona.png">
               <h2>Leigh</h2>
-              <h5>Age: 27 &nbsp Profession: Designer &nbsp Location: New York, NY</h5>
+              <h5>Age: 27 &nbsp Profession: Designer &nbsp Location: NY</h5>
               <p><b>GOALS</b></p>
               <ul>
                 <li>Easily organize saved content</li>
                 <li>Would like to be able to take notes</li>
                 <li>Would like to be reminded of content</li>
               </ul>
-              <blockquote>I  am constantly moving onto the next thing, so being able to save and remember good content would be amazing.</blockquote>
+              <blockquote>I  am constantly moving onto the next thing, so being able to save and remember things would be amazing.</blockquote>
               <p><b>FRUSTRATIONS</b></p>
               <ul>
                 <li>Can’t remember where things are filed</li>
@@ -202,16 +206,17 @@
       </section>
       <section class="framework">
         <div class="overview-header">
-          <h1>framework</h1>
+          <h1 id="framework">framework</h1>
         </div>
         <div class="overview">
           <h3>Sitemap</h3>
           <p>Developed the structure of the website to include all features and functions that were identified in the discovery and strategy phase. </p>
           <h5>CLICK HERE TO VIEW SITEMAP</h5>
         </div>
-        <div class="overlay">
-          <img src="images/overlay.png">
-        </div>
+          <div class="overlay">
+              <img src="images/overlay.png">
+          </div>
+
             <div class="user-research">
               <h3>User flow</h3>
               <p>I developed a user flow to understand how users will engage with the tool. Based on the data gathered during user research, it is a continuous flow that users will be in as we want them to continue to come back and access their assets, add new ones and collaborate.</p>
@@ -294,13 +299,14 @@
       </section>
       <section class="design">
         <div class="overview-header">
-          <h1>design</h1>
+          <h1 id="design">design</h1>
         </div>
         <div class="overview">
           <h3>type/color</h3>
           <p>Chose the font type and colors to align with the esthetic of Jot’s personas.</p>
         </div>
         <div class="brand-guidelines">
+          <div class="brand-guidelines-section">
             <div class="type">
                 <div class="type-header">
                   <h1>type</h1>
@@ -336,6 +342,7 @@
             </div>
           </div>
         </div>
+        </div>
         <div class="testing">
           <h3>Testing</h3>
           <p>Conducted testing to improve the design and functionality of the website for users.</p>
@@ -367,7 +374,7 @@
             <div class="testing-image4">
               <img src="images/wireframe-testing4.png">
             </div>
-            <div class="testing-image-results">
+            <div class="testing-image-results2">
               <h3>71%</h3>
               <p>of users preferred the add button in the left navigation bar</p>
             </div>
