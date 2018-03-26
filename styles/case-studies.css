@@ -29,7 +29,7 @@ h1 {
 h2 {
   font-family: 'Roboto+Slab';
   color: #2C302E;
-  margin-top: -63%;
+  margin-top: -60%;
 }
 
 h3 {
@@ -83,7 +83,7 @@ img {
 .side-nav {
   display: grid;
   padding-left: 5%;
-  padding-top: 30%;
+  padding-top: 15%;
   position: fixed;
 }
 
@@ -92,16 +92,15 @@ img {
   width: 70%;
 }
 
-.product-logo, .jot-dashboard, .product, .user-research-results, .discovery, .strategy, .framework, .design {
+.product-logo, .jot-dashboard, .event-homepage, .assumptions, .product, .user-research-results, .user-research-results-event, .discovery, .strategy, .framework, .design, .competitor-logos-event, .wireframe-section-event, .testing-section1, .testing-section2, .testing-section-1, .testing-section-2, .main-image-section-event {
     grid-column: 1/last;
 }
 
-.product-logo, .jot-dashboard-image, .prototype-button, .project-overview, .overview, .competitor-logos, .competitor-chart, .user-research, .user-research-results, .persona-results, .wireframe-section, .testing, .testing-section1, .testing-section2, .features, .features-section, .main-image-section, .flow-stages, .wireframe, .brand-guidelines, .testing-copy, .conclusion, .prototype-button {
+.product-logo, .jot-dashboard-image, .prototype-button, .project-overview, .overview, .competitor-logos, .competitor-logos-event, .assumptions, .competitor-analysis, .competitor-chart, .user-research, .user-research-results, .user-research-results-event, .persona-results, .wireframe-section, .testing, .testing-section1, .testing-section2, .testing-section-1, .testing-section-2, .features, .features-section, .main-image-section, .flow-stages, .wireframe, .brand-guidelines, .testing-copy, .conclusion, .prototype-button, .wireframe-section-event, .main-image-section-event {
   margin-bottom: 150px;
 }
 
 .product-logo {
-  width: 18%;
   justify-self:  center;
 }
 
@@ -118,7 +117,7 @@ img {
   margin-top: -20px;
 }
 
-.overview, .prototype-button, .user-research, .wireframe, .testing, .testing-copy, .features, .main-pages, .conclusion {
+.overview, .prototype-button, .competitor-analysis, .user-research, .wireframe, .testing, .testing-copy, .features, .main-pages, .conclusion {
   padding-left: 25%;
   padding-right: 30%;
 }
@@ -150,7 +149,7 @@ img {
   margin-left: 15%;
   padding: 3% 5% 5% 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 60%;
+  width: 65%;
 }
 
 .project-overview h3, .project-overview h4, .project-overview p{
@@ -165,6 +164,7 @@ img {
   display: grid;
   justify-content: center;
   justify-items:  center;
+  padding: 3%;
 }
 
 .competitor-logos img {
@@ -186,7 +186,8 @@ img {
 .user-research-charts {
   display: grid;
   grid-template-columns: .5fr .5fr .5fr;
-  text-align: center
+  text-align: center;
+  padding: 3%;
 }
 
 .persona-results {
@@ -207,6 +208,7 @@ img {
 .personas p {
   margin-left: 0;
   font-size: .9375rem;
+  margin-right: 15%;
 }
 
 .personas ul {
@@ -242,6 +244,7 @@ blockquote {
   .wireframe-section {
     display: grid;
     grid-column: 1/last;
+    padding: 3%;
   }
 
   .image1 {
@@ -250,7 +253,7 @@ blockquote {
 
 
 .image1 img, .image2 img, .image3 img, .image4 img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(197, 70, 92, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .overlay {
@@ -271,9 +274,17 @@ blockquote {
     justify-items:  center;
   }
 
-.type-header h1, .colors-header h1{
+.type-header h1, .colors-header h1, .icon-header h1{
   color: rgb(244, 192, 175);
   transform: rotate(-90deg);
+}
+
+.type-copy {
+  font-family: "Raleway";
+}
+
+.type-copy-body {
+  font-family: "Lato:300";
 }
 
 
@@ -312,7 +323,7 @@ blockquote {
   padding-top: 5%;
 }
 
-.main-image img {
+.main-image img, .main-image2 img, .main-image3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -337,6 +348,75 @@ blockquote {
   margin-bottom: 100px;
   text-align: center;
   margin-left: 0;
+}
+
+/** The Event **/
+
+.event-homepage {
+  justify-self: center;
+}
+
+.assumptions {
+  padding: 3%;
+  display: grid;
+}
+
+.assumptions p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.assumptions h1 {
+  margin-top: 0;
+  color: rgb(244, 192, 175);
+}
+
+.competitor-logos-event {
+  display: grid;
+  justify-content: center;
+  justify-items:  center;
+}
+
+.user-research-charts-event {
+  display: grid;
+  padding: 3%;
+}
+
+.bar-charts img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-list {
+  column-count: 2;
+}
+
+.wireframe-section-event {
+  display: grid;
+  padding: 3%;
+}
+
+.row1 img, .row2 img, .testing-section-1 .testing-images img {
+  box-shadow: 0 4px 8px 0 rgba(197, 70, 92, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.type-copy-event {
+  font-family: "Roboto";
+}
+
+.icon-header h1 {
+  width: 600px;
+}
+
+.testing-section-1 .testing-images, .testing-section-2 {
+  display: grid;
+  padding: 3%;
+  grid-gap: 3%;
+}
+
+.main-image-section-event {
+  display: grid;
+  padding: 5%;
+  grid-gap:  3%;
 }
 
 
@@ -405,10 +485,6 @@ blockquote {
     color: #C5465C;
   }
 
-  .user-research-charts {
-    grid-template-columns:.5fr;
-    padding-left: 20%;
-  }
 
   .user-research-charts p{
       padding-top:  40%;
@@ -437,8 +513,8 @@ blockquote {
     .user-flow-circle {
       display: grid;
       grid-template-columns: .5fr .5fr;
-      margin-top: -80%;
-      padding-left: 20%;
+      margin-top: -85%;
+      padding-left: 10%;
     }
 
     .flow-stages {
@@ -446,15 +522,20 @@ blockquote {
     }
 
     .flow-stages ul {
-      margin-top: -10px;
+      display: none;
+    }
+
+    .user-flow1 {
+      margin-top: -40%;
     }
 
     .user-flow1, .user-flow2 {
-      padding-left: 10%;
+      padding-left: 20%;
     }
 
+
     .user-flow2, .user-flow3 {
-      margin-top: -60%;
+      margin-top: -30%;
     }
 
     .brand-guidelines {
@@ -471,7 +552,7 @@ blockquote {
       margin-bottom: 0
     }
 
-    .type-header h1 {
+    .type-header h1, .icon-header h1 {
         padding-bottom: 40%;
     }
 
@@ -483,7 +564,7 @@ blockquote {
       width: 50%;
     }
 
-    .type-copy, .brand-colors {
+    .type-copy, .brand-colors, .type-copy-body {
       padding-left: 40%;
     }
 
@@ -497,13 +578,6 @@ blockquote {
 
     .colors {
       margin-top: 50%;
-    }
-
-    .wireframe-section {
-      display: grid;
-      grid-template-columns: .8fr;
-      grid-row-gap: 3px;
-      padding: 20%;
     }
 
     .image2 img, .image3 img, .image4 img {
@@ -523,28 +597,78 @@ blockquote {
     }
 
     .testing-image-results {
-      margin-top: -490px;
+      margin-top: -410px;
       height: 180px;
   }
 
     .testing-image-results2 {
-      margin-top: -400px;
-      height: 150px;
+      margin-top: -300px;
+      height: 120px;
   }
 
-    .testing-image-results h3, .testing-image-results2 h3{
-      margin-left: 50px;
+    .testing-image-results h3, .testing-image-results2 h3 {
+      margin-left: 10%;
       margin-bottom: 5px;
-      margin-top: 50px;
+      margin-top: 30px;
       color: #2C302E;
     }
 
-    .testing-image-results p, .testing-image-results2 p{
-      margin-left: 50px;
-      margin-right: 60px;
-      margin-top: 0;
+    .testing-image-results p, .testing-image-results2 p {
+     margin-left: 10%;
+     margin-right: 5%;
+     margin-top: 0;
+     color: #2C302E;
+   }
+
+
+    /** The Event **/
+
+    .the-event-logo {
+      width: 150%;
     }
 
+    .assumptions p{
+      margin-top: -30%;
+      padding-left: 10%;
+    }
+
+    .user-research-charts, .wireframe-section, .testing-section1, .testing-section2, .persona-section, .wireframe-section-event, .assumptions, .user-research-charts-event, .testing-section-1 .testing-images, .main-image-section-event {
+      grid-template-columns: 5fr;
+      padding-left: 25%;
+    }
+
+    .competitor-logos-event {
+      grid-template-columns: 5fr;
+    }
+
+    .eventbrite, .nearify, .stubhub, .ticketmaster {
+      padding-top: 5%;
+    }
+
+    .wireframe-section-event img {
+      margin-top: 5%;
+    }
+
+    .app-icon img {
+      width: 60%;
+      padding-left: 30%;
+      margin-top: -20%;
+    }
+
+    .testing-section-1 img {
+      margin-top: 5%;
+    }
+
+    .testing-section-1 .testing-image-results {
+      margin-top: -180px;
+    }
+
+    .main-image-section-event .main-image, .main-image-section-event .main-image2, .main-image-section-event .main-image3 {
+      margin-top: 5%;
+    }
+    .features-list {
+      padding-left: 10%;
+    }
 
 }
 
@@ -566,6 +690,24 @@ blockquote {
     grid-template-columns: .5fr .5fr .5fr;
   }
 
+  .circle-image img {
+    width: 80%;
+  }
+
+  .user-flow-circle {
+    margin-top: -65%;
+  }
+
+  .user-flow2, .user-flow3 {
+    margin-top: -30%;
+  }
+
+}
+
+@media (min-width:  600px) {
+  .user-flow2, .user-flow3 {
+    margin-top: -3%;
+  }
 }
 
 @media (min-width:  768px) {
@@ -590,8 +732,9 @@ blockquote {
       font-size: 1rem;
     }
 
-  .product-logo {
-    width: 18%;
+  .jot-logo {
+    width: 70%;
+    margin-right: 0;
   }
 
   .overview {
@@ -604,6 +747,10 @@ blockquote {
 
   .prototype-button {
     width: 20%;
+  }
+
+  .competitor-logos {
+    margin-left: 0;
   }
 
   .competitor-chart {
@@ -626,7 +773,7 @@ blockquote {
 
   .user-research-charts {
     grid-template-columns: .5fr .5fr .5fr;
-    padding-left: 0;
+    padding: 3%;
   }
 
   .user-research-charts p{
@@ -639,21 +786,21 @@ blockquote {
       grid-template-columns: .5fr .5fr .5fr;
       justify-content: center;
       width: 100%;
+      padding: 3%;
     }
+
 
     .personas {
       padding-top: 0;
     }
 
     .circle-image img {
-      width: 50%;
+      width: 70%;
     }
 
     .user-flow-circle {
-      display: grid;
-      grid-template-columns: .5fr .5fr;
-      margin-top: -45%;
-      padding-left: 10%;
+      margin-top: -60%;
+      padding-left: 3%;
     }
 
     .flow-stages {
@@ -662,10 +809,12 @@ blockquote {
 
     .flow-stages ul {
       margin-top: -20px;
+      display: grid;
     }
 
     .user-flow1 {
       padding-left: 40%;
+      padding-top: 20%;
     }
 
     .user-flow2 {
@@ -681,7 +830,7 @@ blockquote {
     }
 
     .user-flow2, .user-flow3 {
-      margin-top: -20%;
+      margin-top: -30%;
     }
 
     .user-flow3, .user-flow4 {
@@ -727,7 +876,6 @@ blockquote {
     }
 
     .wireframe-section {
-      display: grid;
       grid-template-columns: .8fr .8fr;
       grid-template-rows: .9fr .9fr 1.2fr;
       grid-column-gap: 20px;
@@ -750,16 +898,23 @@ blockquote {
       grid-template-columns: .5fr .5fr;
     }
 
+    .testing-section1 {
+      padding: 3%;
+    }
+
     .testing-section1 .testing-images{
       display: grid;
       grid-template-columns: .5fr .5fr;
       grid-gap: 30px;
-      padding: 3%;
     }
 
     .testing-image-results {
       margin-top: -210px;
       height: 180px;
+  }
+
+  .testing-section2 {
+    padding: 3%;
   }
 
     .testing-section2 .testing-images{
@@ -777,6 +932,9 @@ blockquote {
   margin-top: 0;
 }
 
+.testing-section-1 .testing-image-results {
+  grid-column: 3;
+}
 
 
 
@@ -787,4 +945,119 @@ blockquote {
     align-items: center;
     padding: 3%;
   }
+
+  /** The Event **/
+
+  .the-event-logo {
+    width: 100%;
+  }
+
+  .assumptions {
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-gap: 5%;
+    padding-left: 3%;
+  }
+
+  .assumptions p{
+    margin-top: -49%;
+  }
+
+  .competitor-logos-event {
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-gap: 3%;
+    padding-left: 3%;
+  }
+
+  .allevents, .eventbrite, .nearify, .stubhub, .ticketmaster {
+    padding-top: 0;
+    align-self: center;
+  }
+
+  .user-research-charts-event {
+    grid-template-columns: .5fr .5fr;
+    grid-gap: 5%;
+    padding-left: 3%;
+  }
+
+  .wireframe-section-event {
+    padding-left: 3%;
+  }
+
+  .row1 {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-gap: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .row1 img {
+    width: 50%;
+    }
+
+  .row2 img {
+    width: 80%;
+  }
+
+  .row2 {
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
+    grid-gap: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .wireframe6, .wireframe7, .wireframe8 {
+    padding-top: 15%;
+  }
+
+  .icon {
+    margin-top: -20%;
+  }
+
+  .app-icon img {
+    width: 80%;
+    padding-left: 30%;
+    margin-top: -80%;
+  }
+
+  .testing-section-1 .testing-images {
+    grid-template-columns: .5fr .5fr .5fr;
+    padding-left: 3%;
+  }
+
+  .main-image-section-event {
+    grid-template-columns: .5fr .5fr .5fr;
+    padding-left: 3%
+  }
+
+  .main-image-section-event .main-image2 {
+    margin-top: 20%;
+  }
+
+  .main-image-section-event .main-image3 {
+    margin-top: 40%;
+  }
+
+  .main-image-section-event .main-image {
+    margin-top: 0;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .user-flow2, .user-flow3 {
+    margin-top: 10%;
+  }
+
+  .user-flow1, .user-flow2 {
+    margin-left: 10%;
+  }
+
+  /** The Event **/
+
+  .assumptions p{
+    margin-top: -32%;
+  }
+
 }
