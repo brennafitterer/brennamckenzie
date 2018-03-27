@@ -388,6 +388,21 @@ h5 {
 
 }
 
+@media (min-width: 375px) {
+
+  .copy {
+    position: absolute;
+    bottom: -55px;
+    padding-left: 25px;
+    overflow: hidden;
+  }
+
+  .item2 .copy, .item3 .copy {
+    bottom: -75px;
+  }
+
+}
+
 @media (min-width: 425px) {
 
   .copy {
@@ -398,7 +413,7 @@ h5 {
   }
 
   .item2 .copy, .item3 .copy {
-    bottom: -60px;
+    bottom: -75px;
   }
 
   .circle-image img {
@@ -413,6 +428,21 @@ h5 {
   .about-header h1 {
     font-size: 3rem;
   }
+}
+
+@media (min-width: 600px) {
+
+  .copy {
+    position: absolute;
+    bottom: -30px;
+    padding-left: 25px;
+    overflow: hidden;
+  }
+
+  .item2 .copy, .item3 .copy {
+    bottom: -45px;
+  }
+
 }
 
 @media (min-width: 768px) {
