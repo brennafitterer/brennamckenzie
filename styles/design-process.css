@@ -78,6 +78,7 @@ body {
   display: grid;
   grid-template-columns: .5fr .5fr;
   grid-template-rows: .2fr .5fr;
+  margin-top: -50%;
 }
 
 .step-5 {
