@@ -587,6 +587,10 @@ h5 {
     display: grid;
   }
 
+  .description li {
+    padding-right: 30%;
+  }
+
   /** About **/
 
   .section1 {
@@ -640,5 +644,9 @@ h5 {
 
   .about-copy {
     margin-top: -50px;
+  }
+
+  .description li {
+    padding-right: 50%;
   }
 }
