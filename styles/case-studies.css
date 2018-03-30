@@ -439,6 +439,14 @@ blockquote {
   grid-gap: 3%;
 }
 
+.testing-image4-event {
+  text-align: center;
+}
+
+.testing-image4-event img {
+  width: 80%;
+}
+
 .features-image-event img {
   width: 80%;
 }
