@@ -321,6 +321,7 @@ blockquote {
     width: 100%;
 }
 
+
   .main-image-section {
   display: grid;
   grid-template-columns: auto;
@@ -438,6 +439,14 @@ blockquote {
   grid-gap: 3%;
 }
 
+.features-image-event img {
+  width: 80%;
+}
+
+.features-image-event {
+  padding-left: 30%;
+}
+
 
 .main-image-section-event {
   display: grid;
@@ -497,6 +506,10 @@ blockquote {
   .product-logo {
     width: 30%;
     margin-top: 150px;
+  }
+
+  .event-homepage {
+    width: 50%;
   }
 
   .overview {
@@ -996,6 +1009,10 @@ blockquote {
 
   .the-event-logo {
     width: 100%;
+  }
+
+  .event-homepage {
+    width: 30%;
   }
 
   .assumptions {
