@@ -57,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+.assumptions h1, .brand-guidelines h1 {
+  opacity: .15;
+}
+
 
 .navbar {
   display: grid;
@@ -1041,6 +1045,7 @@ blockquote {
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
     grid-gap: 3%;
     padding-left: 3%;
+    padding-right: 3%;
   }
 
   .allevents, .eventbrite, .nearify, .stubhub, .ticketmaster {
