@@ -17,7 +17,7 @@ body {
 }
 
 .box1 {
-  width: 60%;
+  width: 38%;
   justify-self: center;
 }
 
@@ -134,31 +134,43 @@ blockquote {
 }
 
 .allevents img {
-  width: 20%;
+  width: 30%;
 }
 
 .eventbrite img {
-  width: 20%;
+  width: 30%;
 }
 
 .nearify img {
-  width: 20%;
+  width: 30%;
 }
 
 .ticketmaster img {
-  width: 25%;
+  width: 35%;
 }
 
 .skyscanner img {
-  width: 20%;
+  width: 30%;
 }
 
 .eventbrite, .nearify, .ticketmaster, .skyscanner {
   margin-top: 10%;
 }
 
+.box15 {
+  padding: 0 10%;
+}
+
 .box15 h5 {
   margin-top: 8%;
+}
+
+.box17 {
+  padding: 0 10%;
+}
+
+.box18 {
+  padding: 0 10%;
 }
 
 .box18 .overview h6 {
@@ -172,6 +184,14 @@ blockquote {
 
 .box18 .assumptions {
   margin-top: 10%;
+}
+
+.box21, .box22, .box24, .box25, .box26, .box27, .box28, .box29, .box30, .box31, .box33, .box35, .box36, .box38, .box42, .box44, .box46, .box47 {
+  padding: 0 10%;
+}
+
+.box40 {
+  padding: 0 5% 0 10%;
 }
 
 .box22 p {
@@ -191,27 +211,49 @@ blockquote {
   margin-bottom: 3%;
 }
 
-.box25, .box26, .box27 {
-  position: relative;
-  width: 50%;
-}
-
   .box25 .bar-charts {
     width: 100%;
   }
 
+  .box25 .charts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Pie-chart-1.png");
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+  }
 
-.box25 .charts {
-  position: absolute;
-  top: 28%;
-  left: 30%;
-}
+  .box26 .charts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Pie-chart-2.png");
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: auto;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+  }
 
-.box26 .charts, .box27 .charts {
-  position: absolute;
-  top: 28%;
-  left: 33%;
-}
+  .box27 .charts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/Pie-chart-3.png");
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-size: auto;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+  }
+
+
 
 .box28 {
   margin-top: 10%;
@@ -274,7 +316,7 @@ blockquote {
     display: grid;
     grid-column-gap: 12px;
     grid-row-gap: 30px;
-    grid-template-columns: .3fr .5fr .5fr .3fr;
+    grid-template-columns: .2fr .4fr .4fr .2fr;
     padding: 3%;
   }
 
@@ -317,7 +359,6 @@ blockquote {
       grid-row: 1;
       grid-column: 1;
       display: flex;
-      width: 40%;
       justify-self: left;
     }
 
@@ -341,7 +382,7 @@ blockquote {
   .box15 {
       grid-row: 3;
       grid-column: 2/4;
-      padding: 0 15% 0 15%;
+      padding: 0 20%;
   }
 
   .box16 {
@@ -352,13 +393,13 @@ blockquote {
   .box17 {
     grid-row: 5;
     grid-column: 2/4;
-    padding-left: 15%;
+    padding-left: 20%;
   }
 
   .box18 {
     grid-row: 6;
     grid-column: 2/4;
-    padding: 0 15%;
+    padding: 0 20%;
   }
 
 
@@ -371,14 +412,14 @@ blockquote {
   .box21 {
     grid-row: 8;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
 
   .box22 {
     grid-row: 9;
     grid-column: 2/4;
-    padding-left: 15%
+    padding: 0 20%
   }
 
   .box23 {
@@ -389,64 +430,67 @@ blockquote {
   .box24 {
     grid-row: 11;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
+
+  .box25 .charts {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box26 .charts {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box27 .charts {
+    width: 400px;
+    height: 400px;
+  }
+
 
 
   .box25 {
     grid-row: 12;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
-  .box25 .charts {
-    top: 35%;
-    left: 40%;
-  }
-
-  .box26 .charts, .box27 .charts {
-    top: 35%;
-    left: 43%;
-  }
-
-  .box25 h2, .box26 h2, .box27 h2{
-    padding: 0;
-  }
 
   .box26 {
     grid-row: 13;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box27 {
     grid-row: 14;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box28 {
     grid-row: 15;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box29 {
     grid-row: 16;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box30 {
     grid-row: 17;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box31 {
     grid-row: 18;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box32 {
@@ -457,7 +501,7 @@ blockquote {
   .box33 {
     grid-row: 20;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box34 {
@@ -468,13 +512,13 @@ blockquote {
   .box35 {
     grid-row: 22;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box36 {
     grid-row: 23;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box37 {
@@ -485,7 +529,7 @@ blockquote {
   .box38 {
     grid-row: 25;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box39 {
@@ -496,7 +540,7 @@ blockquote {
   .box40 {
     grid-row: 27;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box40 h2 {
@@ -511,7 +555,7 @@ blockquote {
   .box42 {
     grid-row: 29;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
 
@@ -523,7 +567,7 @@ blockquote {
   .box44 {
     grid-row: 31;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box45 {
@@ -534,13 +578,13 @@ blockquote {
   .box46 {
     grid-row: 33;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding:0 20%;
   }
 
   .box47 {
     grid-row: 34;
     grid-column: 2/4;
-    padding: 0 15% 0 15%;
+    padding: 0 20%;
   }
 
   .box48 {
