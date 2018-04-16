@@ -17,16 +17,14 @@ body {
 }
 
 .box1 {
-  width: 38%;
-  justify-self: center;
+  width: 20%;
+  grid-row: 1;
 }
-
-
 
 .box2, .box3 {
   text-align: center;
-  justify-content: center;
 }
+
 
 h1 {
   font-weight: 300;
@@ -82,6 +80,7 @@ blockquote {
   font-weight: 500;
   font-size: 1rem;
 }
+
 
 .box16, .box20, .box23, .box32, .box34, .box37, .box39, .box41, .box43, .box45 {
   margin-top: 10%;
@@ -363,7 +362,7 @@ blockquote {
       grid-row: 1;
       grid-column: 1;
       display: flex;
-      justify-self: left;
+      width: 38%;
     }
 
   .box2 {
