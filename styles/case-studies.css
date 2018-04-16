@@ -16,12 +16,12 @@ body {
   padding: 5%;
 }
 
-.box1 {
+.portfolio-logo {
   width: 20%;
   grid-row: 1;
 }
 
-.box2, .box3 {
+.resume, .contact {
   text-align: center;
 }
 
@@ -82,7 +82,7 @@ blockquote {
 }
 
 
-.box16, .box20, .box23, .box32, .box34, .box37, .box39, .box41, .box43, .box45 {
+.overview-image, .competitor-image, .user-research-image, .sitemap-image, .user-flow-image, .wireframe-image, .brand-image, .testing-image, .features-image, .conclusion-image {
   margin-top: 10%;
 }
 
@@ -90,7 +90,7 @@ blockquote {
      cursor: pointer;
  }
 
-.box2 .navbar-link, .box3 .navbar-link {
+.resume .navbar-link, .contact .navbar-link {
   text-decoration: none;
   cursor: pointer;
   color: #2C302E;
@@ -153,72 +153,62 @@ blockquote {
   margin-top: 10%;
 }
 
-.box15 {
+.intro-description {
   padding: 0 10%;
 }
 
-.box15 h5 {
+.intro-description h5 {
   margin-top: 8%;
 }
 
-.box17 {
+.overview-header {
   padding: 0 10%;
 }
 
-.box18 {
+.overview-description{
   padding: 0 10%;
 }
 
-.box18 .overview h6 {
+.overview-description8 .overview h6 {
   margin-bottom: 0;
 }
 
-.box18 .overview p{
+.overview-description .overview p{
   margin-top: 2%;
   margin-bottom: 8%;
 }
 
-.box18 .assumptions {
+.overview-description .assumptions {
   margin-top: 10%;
 }
 
-.box21, .box22, .box24, .box25, .box26, .box27, .box28, .box29, .box30, .box31, .box33, .box35, .box36, .box38, .box42, .box44, .box46, .box47 {
+.competitor-overview, .competitor-description, .user-research-overview, .user-research-results-1, .user-research-results-2, .user-research-results-3, .personas-overview, .persona1, .persona2, .persona3, .sitemap-overview, .user-flow-overview, .user-flow-description, .wireframe-overview, .testing-overview, .features-overview, .main-pages-overview, .conclusion-overview {
   padding: 0 10%;
 }
 
-.box40 {
-  padding: 0 5% 0 10%;
-}
-.box40 .type-copy-body {
-  font-family: "Lato:300";
-}
 
-.box40 .type-copy-event {
-  font-family: "Roboto";
-}
-
-.box22 p {
+.competitor-description p {
   margin-bottom: 5%;
 }
 
-.box25 .bar-charts {
+.user-research-results-1 .bar-charts {
   margin-bottom: 10%;
 }
 
-.box25 .bar-charts img {
+.user-research-results-1 .bar-charts img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.box25 .bar-charts p{
+.user-research-results-1 .bar-charts p{
   margin-bottom: 3%;
 }
 
-  .box25 .bar-charts {
+  .user-research-results-1 .bar-charts {
     width: 100%;
   }
 
-  .box25 .charts {
+  .user-research-results-1 .charts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,7 +220,7 @@ blockquote {
     height: 200px;
   }
 
-  .box26 .charts {
+  .user-research-results-2 .charts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,7 +233,7 @@ blockquote {
     height: 200px;
   }
 
-  .box27 .charts {
+  .user-research-results-3 .charts {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,34 +248,44 @@ blockquote {
 
 
 
-.box28 {
+.personas-overview {
   margin-top: 10%;
 }
 
-.box30, .box31 {
+.persona2, .persona3 {
   margin-top: 8%;
 }
 
+.brand-overview {
+  padding: 0 5% 0 10%;
+}
+.brand-overview .type-copy-body {
+  font-family: "Lato:300";
+}
 
-.box40 img {
+.brand-overview .type-copy-event {
+  font-family: "Roboto";
+}
+
+.brand-overview img {
   width: 30%;
 }
 
-.box42 img {
+.testing-overview img {
   margin-bottom: 5%;
   width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.box42 .testing {
+.testing-overview .testing {
   margin-top: 10%;
 }
 
-.box47 {
+.conclusion-overview {
   margin-top: 10%;
 }
 
-.box48 {
+.footer-case-study {
   background-color: #C4435A;
   color: white;
   text-align: center;
@@ -293,7 +293,7 @@ blockquote {
   margin-top: 10%;
 }
 
-.box48 a {
+.footer-case-study a {
   color: white;
 }
 
@@ -358,239 +358,238 @@ blockquote {
   }
 
 
-    .box1  {
+    .portfolio-logo  {
       grid-row: 1;
       grid-column: 1;
       display: flex;
       width: 38%;
     }
 
-  .box2 {
+  .resume {
     grid-column: 3;
     grid-row: 1;
     text-align: right;
   }
 
-  .box3 {
+  .contact {
     grid-column: 4;
     grid-row: 1;
     text-align: center;
   }
 
-  .box14 {
+  .header-image {
     grid-row: 2;
     grid-column: 2/4;
   }
-
-  .box15 {
-      grid-row: 3;
-      grid-column: 2/4;
-      padding: 0 20%;
+  .intro-description {
+    grid-row: 3;
+    grid-column: 2/4;
+    padding: 0 20%;
   }
 
-  .box16 {
+  .overview-image {
       grid-row: 4;
       grid-column: 2/4;
   }
 
-  .box17 {
+  .overview-header {
     grid-row: 5;
     grid-column: 2/4;
     padding-left: 20%;
   }
 
-  .box18 {
+  .overview-description {
     grid-row: 6;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
 
-  .box20 {
+  .competitor-image {
     grid-row: 7;
     grid-column: 2/4;
   }
 
 
-  .box21 {
+  .competitor-overview {
     grid-row: 8;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
 
-  .box22 {
+  .competitor-description {
     grid-row: 9;
     grid-column: 2/4;
     padding: 0 20%
   }
 
-  .box23 {
+  .user-research-image {
     grid-row: 10;
     grid-column: 2/4;
   }
 
-  .box24 {
+  .user-research-overview {
     grid-row: 11;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box25 .charts {
+  .user-research-results-1 .charts {
     width: 400px;
     height: 400px;
   }
 
-  .box26 .charts {
+  .user-research-results-2 .charts {
     width: 400px;
     height: 400px;
   }
 
-  .box27 .charts {
+  .user-research-results-3 .charts {
     width: 400px;
     height: 400px;
   }
 
 
 
-  .box25 {
+  .user-research-results-1 {
     grid-row: 12;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
 
-  .box26 {
+  .user-research-results-2 {
     grid-row: 13;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box27 {
+  .user-research-results-3 {
     grid-row: 14;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box28 {
+  .personas-overview {
     grid-row: 15;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box29 {
+  .persona1 {
     grid-row: 16;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box30 {
+  .persona2 {
     grid-row: 17;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box31 {
+  .persona3 {
     grid-row: 18;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box32 {
+  .sitemap-image {
     grid-row: 19;
     grid-column: 2/4;
   }
 
-  .box33 {
+  .sitemap-overview {
     grid-row: 20;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box34 {
+  .user-flow-image {
     grid-row: 21;
     grid-column: 2/4;
   }
 
-  .box35 {
+  .user-flow-overview {
     grid-row: 22;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box36 {
+  .user-flow-description {
     grid-row: 23;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box37 {
+  .wireframe-image {
     grid-row: 24;
     grid-column: 2/4;
   }
 
-  .box38 {
+  .wireframe-overview {
     grid-row: 25;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box39 {
+  .brand-image {
     grid-row: 26;
     grid-column: 2/4;
   }
 
-  .box40 {
+  .brand-overview {
     grid-row: 27;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box40 h2 {
+  .brand-overview h2 {
     margin-top: 10%;
   }
 
-  .box41 {
+  .testing-image {
     grid-row: 28;
     grid-column: 2/4;
   }
 
-  .box42 {
+  .testing-overview {
     grid-row: 29;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
 
-  .box43 {
+  .features-image {
     grid-row: 30;
     grid-column: 2/4;
   }
 
-  .box44 {
+  .features-overview {
     grid-row: 31;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box45 {
+  .conclusion-image {
     grid-row: 32;
     grid-column: 2/4;
   }
 
-  .box46 {
+  .main-pages-overview {
     grid-row: 33;
     grid-column: 2/4;
     padding:0 20%;
   }
 
-  .box47 {
+  .conclusion-overview {
     grid-row: 34;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
-  .box48 {
+  .footer-case-study {
     grid-row: 35;
     grid-column: 2/4;
     padding: 10% 15% 10% 15%;
@@ -601,22 +600,17 @@ blockquote {
     grid-column: 2/4;
   }
 
-  .about {
-    grid-row: 3;
-    grid-column: 2/4;
-    padding: 0 15%;
-  }
 
   .problem {
     grid-row: 4;
     grid-column: 2/4;
-    padding: 0 15%;
+    padding: 0 20%;
   }
 
   .solution {
     grid-row: 5;
     grid-column: 2/4;
-    padding: 0 15%;
+    padding: 0 20%;
     margin-bottom: 8%;
   }
 

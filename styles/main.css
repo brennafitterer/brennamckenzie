@@ -27,7 +27,6 @@ h1 {
 }
 
 h2 {
-  text-transform: capitalize;
   font-weight: 300;
   font-size: 1.85rem;
   padding-left: 10%;
@@ -63,12 +62,12 @@ a {
      cursor: pointer;
  }
 
- .box1 {
+ .portfolio-logo {
    width: 20%;
    grid-row: 1;
  }
 
-.box2 .navbar-link, .box3 .navbar-link {
+.resume .navbar-link, .contact .navbar-link {
   text-decoration: none;
   cursor: pointer;
   color: #2C302E;
@@ -82,19 +81,19 @@ a {
   text-align: center;
 }
 
-.box2, .box3 {
+.resume, .contact {
   text-align: center;
 }
-.box3 {
+.contact {
   margin-bottom: 10%;
 }
 
-.box4 {
+.about {
   grid-row: 4;
   padding: 0 10%;
 }
 
-.box4 a{
+.about a{
   color: black;
 }
 
@@ -105,6 +104,10 @@ a {
 
 .intro {
   grid-row: 5;
+}
+
+.intro h2 {
+  margin-bottom: 0;
 }
 
 .intro p{
@@ -121,84 +124,84 @@ a {
   text-transform: capitalize;
 }
 
-.box5 {
+.projects-header {
   grid-row: 5;
 }
 
-.box6 {
+.project1 {
   grid-row: 6;
   position: relative;
 }
 
-.box6 .copy, .box7 .copy, .box8 .copy, .box9 .copy {
+.project1 .copy, .project2 .copy, .project3 .copy, .project4 .copy {
   position: absolute;
   bottom: 10px;
   left: 16px;
   padding-right: 5%;
 }
 
-.box6 h4, .box6 h5, .box6 p, .box7 h4, .box7 h5, .box7 p, .box8 h4, .box8 h5, .box8 p, .box9 h4, .box9 h5, .box9 p {
+.project1 h4, .project1 p, .project2 h4, .project2 p, .project3 h4, .project3 p, .project4 h4, .project4 p {
   color: white;
 }
 
-.box6 h4, .box7 h4, .box8 h4, .box9 h4 {
+.project1 h4, .project2 h4, .project3 h4, .project4 h4 {
   font-weight: 200;
   margin-bottom: 0;
   font-size: 1.85rem;
 }
 
-.box6 .project-description, .box7 .project-description, .box8 .project-description, .box9 .project-description {
+.project1 .project-description, .project2 .project-description, .project3 .project-description, .project4 .project-description {
   margin-top: 2%;
 }
 
-.box7 {
+.project2 {
   grid-row: 7;
   position: relative;
 }
 
-.box8 {
+.project3 {
   grid-row: 8;
   position: relative;
 }
 
-.box9 {
+.project4 {
   grid-row: 9;
   position: relative;
 }
 
-.box10 {
+.design-process-header {
   grid-row: 10;
 }
 
-.box11 {
+.design-process {
   grid-row: 11;
   background-color: #C4435A;
   padding: 0 5% 0 6%;
 }
 
-.box11 p {
+.design-process p {
   padding: 0 5% 0 5%;
 }
 
-.box11 a {
+.design-process a {
   color: white;
 }
 
 
-.box12 {
+.areas-of-focus-header {
   grid-row: 12;
 }
 
-.box12 h2 {
+.areas-of-focus-header h2 {
   margin-bottom: 0;
 }
 
-.box13 {
+.areas-of-focus{
   grid-row:  13;
   padding: 0 10% 0 10%;
 }
 
-.box14 {
+.footer {
   grid-row: 14;
   background-color: #C4435A;
   text-align: center;
@@ -206,53 +209,9 @@ a {
   margin-top: 15%;
 }
 
-.box14 a {
+.footer a {
   color: white;
 }
-
-.box15 {
-  grid-row: 4;
-}
-
-.box16{
-  grid-row: 5;
-}
-
-.box17 {
-  grid-row: 6;
-  background-color: #C4435A;
-  color: white;
-  padding: 0 10% 5% 10%;
-}
-
-.box17 h2 {
-  padding-left: 0;
-}
-
-.box17 h6 {
-  margin-bottom:  0;
-}
-
-.box18 {
-  grid-row: 7;
-}
-
-.box19 {
-  grid-row: 8;
-}
-
-.box img {
-  width: 20%;
-}
-
-.dropbox img {
-  width: 30%
-}
-
-.g-suite img {
-  width: 10%;
-}
-
 
 
 @media (min-width: 768px) {
@@ -291,28 +250,28 @@ a {
     font-size: 1.125rem;
   }
 
-  .box1  {
+  .portfolio-logo  {
     grid-row: 1;
     grid-column: 1;
     display: flex;
     width: 38%;
   }
 
-  .box2 {
+  .resume {
     grid-column: 3;
     grid-row: 1;
     text-align: right;
     margin-left: 0;
   }
 
-  .box3 {
+  .contact {
     grid-column: 4;
     grid-row: 1;
     text-align: center;
     margin-left: 0;
   }
 
-  .box4 {
+  .about {
     grid-column: 2/4;
     grid-row: 2;
     padding: 10% 15% 0 20%;
@@ -339,60 +298,60 @@ a {
     padding: 0 16%;
   }
 
-  .box5 {
+  .projects-header {
     grid-column: 2/4;
     grid-row: 3;
 
   }
 
-  .box6 {
+  .project1 {
     grid-column: 2;
     grid-row: 4;
   }
 
-  .box7 {
+  .project2 {
     grid-column: 3;
     grid-row: 4;
   }
 
-  .box8 {
+  .project3 {
     grid-column: 2;
     grid-row: 5;
   }
 
-  .box9 {
+  .project4 {
     grid-column: 3;
     grid-row: 5;
   }
 
-  .box6 p, .box7 p, .box8 p, .box9 p {
+  .project1 p, .project2 p, .project3 p, .project4 p {
     font-size: 1rem;
   }
 
-  .box10 {
+  .design-process-header {
     grid-column: 2/4;
   }
 
 
-  .box11 {
+  .design-process {
     grid-column: 2/4;
     padding: 0 10% 0 16%;
   }
 
-  .box12 {
+  .areas-of-focus-header {
     grid-column: 2/4;
   }
 
-  .box13 {
+  .areas-of-focus {
     grid-column: 2/4;
     padding: 0 20% 0 20%;
   }
 
-  .box14 {
+  .footer {
     grid-column: 2/4;
   }
 
-  .box14 a {
+  .footer a {
     font-size: 1.35rem;
   }
 
