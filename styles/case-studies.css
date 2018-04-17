@@ -247,13 +247,16 @@ blockquote {
   }
 
 
-
 .personas-overview {
   margin-top: 10%;
 }
 
-.persona2, .persona3 {
+.persona1, .persona2, .persona3 {
   margin-top: 8%;
+}
+
+.persona-image {
+  width: 80%;
 }
 
 .brand-overview {
@@ -273,13 +276,11 @@ blockquote {
 
 .testing-overview img {
   margin-bottom: 5%;
-  width: 50%;
+  margin-top: 10%;
+  width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.testing-overview .testing {
-  margin-top: 10%;
-}
 
 .conclusion-overview {
   margin-top: 10%;
@@ -436,18 +437,18 @@ blockquote {
   }
 
   .user-research-results-1 .charts {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
   .user-research-results-2 .charts {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
   .user-research-results-3 .charts {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
 
 
@@ -477,10 +478,16 @@ blockquote {
     padding: 0 20%;
   }
 
+
+  .persona-image {
+    width: 80%;
+  }
+
   .persona1 {
     grid-row: 16;
     grid-column: 2/4;
     padding: 0 20%;
+
   }
 
   .persona2 {
@@ -556,10 +563,54 @@ blockquote {
 
   .testing-overview {
     grid-row: 29;
-    grid-column: 2/4;
-    padding: 0 20%;
+    grid-column: 1/5;
   }
 
+  .testing-overview h2, .testing-overview p {
+    padding: 0 25%;
+  }
+
+  .testing-images img {
+    width: 80%;
+  }
+
+  .testing-images-jot img {
+    width: 100%;
+  }
+
+  .testing-images {
+    grid-row: 29;
+    grid-column: 1/5;
+    grid-template-columns: .3fr .3fr .3fr;
+    display: grid;
+    grid-column-gap: 8px;
+    justify-content: center;
+  }
+
+  .testing-images-jot {
+    grid-row: 29;
+    grid-column: 1/5;
+    grid-template-columns: .3fr .3fr;
+    display: grid;
+    grid-column-gap: 10px;
+    justify-content: center;
+  }
+
+  .testing {
+    grid-column: 1;
+    text-align: center;
+  }
+
+  .testing2 {
+    grid-column: 2;
+    text-align: center;
+
+  }
+
+  .testing3 {
+    grid-column: 3;
+    text-align: center;
+  }
 
   .features-image {
     grid-row: 30;
