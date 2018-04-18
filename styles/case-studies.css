@@ -310,7 +310,9 @@ blockquote {
   color: white;
 }
 
-
+.problem, .solution {
+  padding: 0 10%;
+}
 
 
 
