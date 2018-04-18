@@ -478,9 +478,12 @@ blockquote {
     padding: 0 20%;
   }
 
+  .persona-image-jot {
+    width: 85%;
+  }
 
   .persona-image {
-    width: 80%;
+    width: 70%;
   }
 
   .persona1 {
