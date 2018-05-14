@@ -114,7 +114,7 @@ blockquote {
   padding-bottom: 10%;
 }
 
-.allevents, .eventbrite, .nearify, .ticketmaster, .skyscanner {
+.allevents, .eventbrite, .nearify, .ticketmaster, .skyscanner, .dicks, .fitness-giant, .life-fitness, .nordictrack {
     margin-bottom: 5%;
 }
 
@@ -150,7 +150,19 @@ blockquote {
   width: 30%;
 }
 
-.eventbrite, .nearify, .ticketmaster, .skyscanner {
+.dicks img {
+  width: 30%;
+}
+
+.fitness-giant img, .nordictrack img {
+  width: 60%;
+}
+
+.life-fitness img, .colorado img  {
+  width: 50%;
+}
+
+.eventbrite, .nearify, .ticketmaster, .skyscanner, .fitness-giant, .life-fitness, .nordictrack, .colorado {
   margin-top: 10%;
 }
 
@@ -249,7 +261,7 @@ blockquote {
 
 
 .personas-overview {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .persona1, .persona2, .persona3 {
@@ -258,6 +270,10 @@ blockquote {
 
 .persona-image {
   width: 80%;
+}
+
+.user-flow-description {
+  margin-top: 5%;
 }
 
 .brand-overview {
@@ -272,7 +288,9 @@ blockquote {
 }
 
 .brand-overview img {
-  width: 30%;
+  width: 50%;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .testing-overview img {
@@ -509,29 +527,29 @@ blockquote {
   }
 
   .sitemap-image {
-    grid-row: 19;
+    grid-row: 22;
     grid-column: 2/4;
   }
 
   .sitemap-overview {
-    grid-row: 20;
+    grid-row: 23;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
   .user-flow-image {
-    grid-row: 21;
+    grid-row: 19;
     grid-column: 2/4;
   }
 
   .user-flow-overview {
-    grid-row: 22;
+    grid-row: 20;
     grid-column: 2/4;
     padding: 0 20%;
   }
 
   .user-flow-description {
-    grid-row: 23;
+    grid-row: 21;
     grid-column: 2/4;
     padding: 0 20%;
   }
@@ -593,7 +611,7 @@ blockquote {
     justify-content: center;
   }
 
-  .testing-images-jot {
+  .testing-images-jot, .testing-images-home-fit {
     grid-row: 29;
     grid-column: 1/5;
     grid-template-columns: .3fr .3fr;
