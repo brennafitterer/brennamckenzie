@@ -602,6 +602,10 @@ blockquote {
     width: 100%;
   }
 
+  .testing-images-home-fit img {
+    width: 100%;
+  }
+
   .testing-images {
     grid-row: 29;
     grid-column: 1/5;
